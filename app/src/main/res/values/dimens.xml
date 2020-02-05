@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- Preference fragment padding, bottom -->
+    <dimen name="preference_fragment_padding_bottom">0dp</dimen>
+    <!-- Preference fragment padding, sides -->
+    <dimen name="preference_fragment_padding_side">16dp</dimen>
+
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer> <!-- outsideOverlay -->
+
+    <dimen name="action_button_size">56dp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">22dp</dimen>
+    <dimen name="app_bar_height">256dp</dimen>
+
+    <dimen name="user_info_height">55dp</dimen>
+
+    <!-- 状态栏电池厚度 -->
+    <dimen name="reading_board_battery_border_width">1dp</dimen>
+    <!-- 书本宽边距 -->
+    <dimen name="readingMarginWidth">15dp</dimen>
+    <!-- 书本高边距 -->
+    <dimen name="readingMarginHeight">30dp</dimen>
+    <!-- 状态栏离底部距离 -->
+    <dimen name="reading_status_margin_bottom">3dp</dimen>
+    <!-- 行间距 -->
+    <dimen name="reading_line_spacing">10dp</dimen>
+    <!-- 段间距 -->
+    <dimen name="reading_paragraph_spacing">30dp</dimen>
+    <!-- 书本字体默认大小 -->
+    <dimen name="reading_default_text_size">20sp</dimen>
+    <!-- 书本字体最小大小 -->
+    <dimen name="reading_min_text_size">10sp</dimen>
+    <!-- 书本字体最大大小 -->
+    <dimen name="reading_max_text_size">30sp</dimen>
+    <!-- 设置行高 -->
+    <dimen name="setting_height">60dp</dimen>
+
+    <!--状态栏高-->
+    <dimen name="status_bar_height">24dp</dimen>
+
+    <dimen name="actionbar_height">51dip</dimen>
+    <dimen name="margin_top">15dip</dimen>
+    <dimen name="margin_left_right">15dip</dimen>
+
+
+
+    <dimen name="tutorial_shared_element_translate_y">56dp</dimen>
+    <dimen name="tutorial_device_img_left_right_margin">32dp</dimen>
+
+    <!-- Recommended -->
+    <dimen name="recommended_margin">16dp</dimen>
+    <dimen name="recommended_category_offset">16dp</dimen>
+    <dimen name="recommended_text_size">20sp</dimen>
+    <dimen name="recommended_indicator_text">14sp</dimen>
+    <dimen name="recommended_indicator_margin">24dp</dimen>
+    <dimen name="recommended_margin_bottom">4dp</dimen>
+    <dimen name="deviceImagePadding">30dp</dimen>
+    <dimen name="space_size">40dp</dimen>
+    <dimen name="space_margin">0dp</dimen>
+
+
+    <!--标题文字大小-->
+    <dimen name="textSize_alert_title">22sp</dimen>
+    <dimen name="textSize_actionsheet_title">14sp</dimen>
+    <!--标题文字高度-->
+    <dimen name="height_alert_title">60dp</dimen>
+    <dimen name="height_actionsheet_title">40dp</dimen>
+    <!--消息文字大小-->
+    <dimen name="textSize_alert_msg">15sp</dimen>
+    <dimen name="textSize_actionsheet_msg">14sp</dimen>
+    <!--消息距离底部间距-->
+    <dimen name="marginBottom_alert_msg">25dp</dimen>
+    <dimen name="marginBottom_actionsheet_msg">14dp</dimen>
+    <!--窗口模式左右两边到屏幕的间距-->
+    <dimen name="margin_alert_left_right">40dp</dimen>
+    <dimen name="margin_actionsheet_left_right">10dp</dimen>
+    <!--线条粗细-->
+    <dimen name="size_divier">1dp</dimen>
+    <!--按钮的高度-->
+    <dimen name="height_alert_button">48dp</dimen>
+    <!--按钮文字大小-->
+    <dimen name="textSize_alert_button">18sp</dimen>
+    <!--圆角-->
+    <dimen name="radius_alertview">15px</dimen>
+
+    <!--主框架-->
+    <dimen name="dimen_small_text_size">14sp</dimen>
+    <dimen name="dimen_tiny_text_size">10sp</dimen>
+
+    <dimen name="dimen_person_edit_height">100dp</dimen>
+
+
+    <dimen name="height_title">48.0dip</dimen>
+
+    <dimen name="ts_13">13sp</dimen>
+    <dimen name="ts_10">10sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <dimen name="height_2">2dip</dimen>
+    <dimen name="height_line">1dip</dimen>
+    <dimen name="height_40">40dip</dimen>
+    <dimen name="height_50">50dip</dimen>
+    <dimen name="height_message">75dp</dimen>
+    <dimen name="height_70">70dp</dimen>
+
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_11">11dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+
+    <dimen name="text_inactive">10dp</dimen>
+    <dimen name="text_active">12dp</dimen>
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_shadow_height">8dp</dimen>
+    <dimen name="bottom_navigation_shadow_height_without_colored_background">4dp</dimen>
+    <dimen name="bottom_navigation_min_width">104dp</dimen>
+    <dimen name="bottom_navigation_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="bottom_navigation_line_width">1dp</dimen>
+    <dimen name="bottom_navigation_icon">24dp</dimen>
+    <dimen name="bottom_navigation_padding_top_active">5dp</dimen>
+    <dimen name="bottom_navigation_padding_top_inactive">9dp</dimen>
+    <dimen name="bottom_navigation_padding_top_inactive_without_text">16dp</dimen>
+    <dimen name="bottom_navigation_padding_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
+
+
+    <dimen name="tool_bar_height">56dp</dimen>
+</resources>

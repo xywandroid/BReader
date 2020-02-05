@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffce3d3a</color>
+    <color name="colorPrimaryDark">#fffaebeb</color>
+    <color name="colorAccent">#ffce3d3a</color>
+    <color name="colorYellow">#FFEC8B</color>
+    <color name="white">#ffffffff</color>
+    <color name="halfColorPrimary">#aa2C2C2C</color>
+    <color name="black">#000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="dark_red">#ff8c1c1c</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#ffececec</color>
+    <color name="light_yellow">#fffff99e</color>
+    <color name="dark_gray">#ff999999</color>
+    <color name="green">#ff95c81c</color>
+    <color name="orange">#ffefa600</color>
+    <color name="silver">#ffecebe8</color>
+    <color name="gray">#ff7f7f7f</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="background_color">#eeeeee</color>
+    <color name="list_item_divider">#cccccc</color>
+    <color name="divider">#9c9c9c</color>
+    <color name="text_color">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    <color name="text_title_color">#444444</color>
+    <color name="menu_background">#d3d7d4</color>
+    <color name="toolpop_background">#b0000000</color>
+    <color name="shelf_background">#DA955A</color>
+    <color name="shelf_myNavigationColor">#86471B</color>
+    <!-- Reader Color -->
+    <color name="reader_default_bg_toolbar">#CC000000</color>
+    <color name="reader_default_bg_yellow">#CFBEB6</color>
+    <color name="reader_default_bg_black">#090C13</color>
+    <color name="reader_default_text_light">#32414E</color>
+    <color name="reader_default_text_dark">#444444</color>
+    <color name="read_background">#FAF9DE</color>
+    <color name="read_background_paperYellow">#D4C5A3</color>
+    <color name="read_textColor">#3B3A38</color>
+
+    <color name="read_dialog_bg">#2C2C2C</color>
+    <color name="read_dialog_button_select">#E25754</color>
+
+    <color name="read_bg_default">#CEC29C</color>
+    <color name="read_bg_1">#CCEBCC</color>
+    <color name="read_bg_2">#37342F</color>
+    <color name="read_bg_3">#D1CEC5</color>
+    <color name="read_bg_4">#001C27</color>
+    <color name="content_background_color">#f2f4f5</color>
+    <color name="read_font_default">#2C2C2C</color>
+    <color name="read_font_1">#2F332D</color>
+    <color name="read_font_2">#92918C</color>
+    <color name="read_font_3">#383429</color>
+    <color name="read_font_4">#627176</color>
+
+    <color name="lineColor">#60d3d3d3</color>
+    <!-- UI Color -->
+    <color name="myPrimaryColor">#4284F5</color>
+    <color name="myPrimaryDarkColor">#3870d0</color>
+    <color name="myAccentColor">#fe5151</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="myWindowBackground">#F5F5F5</color>
+    <color name="myTextPrimaryColor">#FFFFFF</color>
+    <color name="mySearchToggleColor">#7F7F7F</color>
+    <!-- Navigation Color is 30% black mask attack to primary color -->
+    <color name="myNavigationColor">#2E5CAB</color>
+    <color name="myNavigationColorWhite">#B2B2B2</color>
+
+    <!-- LIST BORDER COLOR -->
+    <color name="rounded_container_border">#ffb7babb</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+
+
+    <color name="black4">#ffeaeaea</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="grey_light_tertiary">#eeeeee</color>
+    <color name="desert_storm">#f8f8f8</color>
+    <color name="white_alpha100">#ffffff</color>
+    <color name="pale_robin_egg_blue">#9ee2ce</color>
+    <color name="primary_color">#3dc49d</color>
+    <color name="mountain_meadow">#2fbc8b</color>
+    <color name="primary_color_darker">#2b896e</color>
+    <color name="grey_light_primary">#999999</color>
+    <color name="grey_light_secondary">#cccccc</color>
+    <color name="grey_dark_secondary">#666666</color>
+    <color name="black_alpha20">#33000000</color>
+    <color name="black_alpha30">#4c000000</color>
+    <color name="black_alpha47">#77000000</color>
+    <color name="black_alpha73">#bb000000</color>
+    <color name="status_bar_color">#33000000</color>
+
+    <color name="button_green_text">@android:color/white</color>
+    <color name="button_green_text_disabled">@android:color/white</color>
+    <color name="button_green_text_pressed">@color/mountain_meadow</color>
+
+
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+
+    <color name="bottom_tab_bg">#EBEBEB</color>
+    <color name="color_background">#EBEBEB</color>
+    <color name="button_default">#4c4d51</color>
+    <color name="button_pressed">#58585c</color>
+
+    <!-- bottom navigation start-->
+    <color name="color_nav_default">#3E4757</color>
+    <color name="color_nav_pressed">#FF4081</color>
+    <!-- bottom navigation end-->
+
+    <color name="base_color">#393A3F</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+
+    <!-- 透明色-->
+    <color name="color_border">#66666666</color>
+
+    <color name="clr_main_text">#000000</color>
+    <color name="clr_sub_text">#b4af96</color>
+    <color name="clr_form_line">#80808069</color>
+
+
+
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="color_theme">#489cfa</color>
+
+    <color name="color_emote_divder">#ffa1a1a1</color>
+    <color name="color_bottom_bg">#272a2e</color>
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#4f9ef6</color>
+    <color name="text_gray">#969696</color>
+    <color name="msg_chat_bg">#eceff4</color>
+
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="c_f98800">#ed4e23</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="guide_color">#898989</color>
+
+    <color name="common_bg">#fcfcfc</color>
+    <color name="color_99">#999999</color>
+    <color name="color_line">#dadada</color>
+    <color name="color_chat_send_status">#818181</color>
+    <color name="color_msg_system_time_bg">#20000000</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_b4">#b4b4b4</color>
+
+
+    <color name="itemActiveColorWithoutColoredBackground">#2196F3</color>
+    <color name="colorActive">#FFFFFF</color>
+    <color name="colorInactive">#e7e6e7</color>
+    <color name="withoutColoredBackground">#757575</color>
+
+    <color name="light_grey">#ffbebebe</color>
+    <color name="window_background">@android:color/white</color>
+
+
+
+    <!---->
+
+    <color name="accent_red">#F44336</color>
+
+    <color name="brown">#795548</color>
+    <color name="dark_brown">#795548</color>
+    <color name="accent_brown">#795548</color>
+
+
+    <color name="blue">#2196F3</color>
+    <color name="dark_blue">#2196F3</color>
+    <color name="accent_blue">#448AFF</color>
+
+    <color name="blue_grey">#607D8B</color>
+    <color name="dark_blue_grey">#607D8B</color>
+    <color name="accent_blue_grey">#607D8B</color>
+
+    <color name="yellow">#FF9800</color>
+    <color name="dark_yellow">#FF9800</color>
+    <color name="accent_yellow">#FF9800</color>
+
+    <color name="deep_purple">#673AB7</color>
+    <color name="dark_deep_purple">#673AB7</color>
+    <color name="accent_deep_purple">#673AB7</color>
+
+    <color name="pink">#E91E63</color>
+    <color name="dark_pink">#E91E63</color>
+    <color name="accent_pink">#E91E63</color>
+
+    <color name="dark_green">#4CAF50</color>
+    <color name="accent_green">#4CAF50</color>
+
+    <color name="text_color_primary">#212121</color>
+    <color name="text_second_color_primary">#727272</color>
+
+    <color name="grey" >#ffbebebe</color>
+    <color name="grey_1">#9E9E9E</color>
+    <color name="dark_grey">#FF080808</color>
+    <color name="light_grey_1">#FFEEEEEE</color>
+
+    <color name="drawer_scrim_color">#88EEEEEE</color>
+    <color name="toolbar_title_color">@android:color/white</color>
+    <color name="toolbar_bg_color">@android:color/black</color>
+    <color name="text_color_title">#ffffffff</color>
+    <color name="tabIndicatorColor">#ffce0f00</color>
+    <color name="text_color_description">#7d7d7d</color>
+    <color name="warm_red">#FF6347</color>
+    <color name="dark_warm_red">#FF6347</color>
+    <color name="main_color">@color/warm_red</color>
+    <color name="dark_main_color">@color/dark_warm_red</color>
+</resources>

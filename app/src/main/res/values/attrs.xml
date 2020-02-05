@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="auto_start" format="boolean" />
+        <attr name="base_alpha" format="float" />
+        <attr name="duration" format="integer" />
+        <attr name="repeat_count" format="integer" />
+        <attr name="repeat_delay" format="integer" />
+        <attr name="repeat_mode" format="enum">
+            <enum name="restart" value="1" />
+            <enum name="reverse" value="2" />
+        </attr>
+        <attr name="angle" format="enum">
+            <enum name="cw_0" value="0" />
+            <enum name="cw_90" value="90" />
+            <enum name="cw_180" value="180" />
+            <enum name="cw_270" value="270" />
+        </attr>
+        <attr name="dropoff" format="float" />
+        <attr name="fixed_width" format="dimension" />
+        <attr name="fixed_height" format="dimension" />
+        <attr name="intensity" format="float" />
+        <attr name="relative_width" format="float" />
+        <attr name="relative_height" format="float" />
+        <attr name="shape" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+        </attr>
+        <attr name="tilt" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="UIListView">
+        <attr name="alignCenter" format="boolean" />
+        <attr name="textBold" format="boolean" />
+        <attr name="showChevron" format="boolean" />
+        <attr name="singleItem" format="boolean" />
+    </declare-styleable>
+
+
+    <!--ViewPager-->
+
+    <declare-styleable name="NavigationTabStrip">
+        <attr name="nts_color" format="color" />
+        <attr name="nts_size" format="dimension" />
+        <attr name="nts_weight" format="dimension" />
+        <attr name="nts_factor" format="float" />
+        <attr name="nts_titles" format="reference" />
+
+        <attr name="nts_type" format="enum">
+            <enum name="line" value="0" />
+            <enum name="point" value="1" />
+        </attr>
+        <attr name="nts_gravity" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+
+        <attr name="nts_typeface" format="string" />
+        <attr name="nts_corners_radius" format="dimension" />
+        <attr name="nts_animation_duration" format="integer" />
+
+        <attr name="nts_inactive_color" format="color" />
+        <attr name="nts_active_color" format="color" />
+    </declare-styleable>
+
+
+    <string-array name="titles">
+        <item>旧约</item>
+        <item>新约</item>
+    </string-array>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DuoDrawerLayout">
+        <attr name="menu" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="contentScaleClosed" format="float" />
+        <attr name="clickToCloseScale" format="float" />
+        <attr name="contentScaleOpen" format="float" />
+        <attr name="menuScaleClosed" format="float" />
+        <attr name="menuScaleOpen" format="float" />
+        <attr name="menuAlphaClosed" format="float" />
+        <attr name="menuAlphaOpen" format="float" />
+        <attr name="marginFactor" format="float" />
+    </declare-styleable>
+    <declare-styleable name="DuoMenuView">
+        <attr name="header" format="reference" />
+        <attr name="footer" format="reference" />
+        <attr name="background" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SpaceTabLayout">
+        <attr name="number_of_tabs">
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+            <enum name="three_IconOnly" value="0" />
+        </attr>
+
+        <attr name="starting_position">
+            <enum name="one" value="0" />
+            <enum name="two" value="1" />
+            <enum name="three" value="2" />
+            <enum name="four" value="3" />
+            <enum name="five" value="4" />
+        </attr>
+
+        <attr name="tab_color" format="color" />
+        <attr name="button_color" format="color" />
+        <attr name="text_color" format="color" />
+
+        <attr name="icon_one" format="reference" />
+        <attr name="icon_two" format="reference" />
+        <attr name="icon_three" format="reference" />
+        <attr name="icon_four" format="reference" />
+        <attr name="icon_five" format="reference" />
+
+        <attr name="text_one" format="string" />
+        <attr name="text_two" format="string" />
+        <attr name="text_three" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="BottomNavigationView">
+        <!-- If text will be enabled for the tabs, defaulted to true -->
+        <attr name="bnv_with_text" format="boolean" />
+        <!-- If there will be a shadow on the view, default is true -->
+        <attr name="bnv_shadow" format="boolean" />
+        <!-- If the view should be set up for a tablet, default is false -->
+        <attr name="bnv_tablet" format="boolean" />
+        <!-- Disable or enable the background color, default is true -->
+        <attr name="bnv_colored_background" format="boolean" />
+        <!-- If a supplied ViewPager will have a slide animation, default is true -->
+        <attr name="bnv_viewpager_slide" format="boolean" />
+        <!-- Text size for the active tab, default size is 14sp -->
+        <attr name="bnv_active_text_size" format="dimension" />
+        <!-- Text size for an inactive tab, default size is 12sp -->
+        <attr name="bnv_inactive_text_size" format="dimension" />
+        <!-- The color of an activated tab. Will only be considered if bnv_colored_background is false, no default is set -->
+        <attr name="bnv_active_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="NavigationTabBar">
+        <attr name="ntb_titled" format="boolean"/>
+        <attr name="ntb_badged" format="boolean"/>
+        <attr name="ntb_scaled" format="boolean"/>
+        <attr name="ntb_tinted" format="boolean"/>
+        <attr name="ntb_swiped" format="boolean"/>
+        <attr name="ntb_badge_use_typeface" format="boolean"/>
+
+        <attr name="ntb_title_size" format="dimension"/>
+        <attr name="ntb_title_mode" format="enum">
+            <enum name="all" value="0"/>
+            <enum name="active" value="1"/>
+        </attr>
+
+        <attr name="ntb_badge_size" format="dimension"/>
+        <attr name="ntb_badge_position" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="ntb_badge_gravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr name="ntb_badge_bg_color" format="color"/>
+        <attr name="ntb_badge_title_color" format="color"/>
+
+        <attr name="ntb_typeface" format="string"/>
+        <attr name="ntb_corners_radius" format="dimension"/>
+        <attr name="ntb_icon_size_fraction" format="float"/>
+        <attr name="ntb_animation_duration" format="integer"/>
+
+        <attr name="ntb_inactive_color" format="color"/>
+        <attr name="ntb_active_color" format="color"/>
+        <attr name="ntb_bg_color" format="color"/>
+
+        <attr name="ntb_preview_colors" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coressoft.breader.lib.preference.PreferenceCategory android:title="@string/general_settings">
+        <com.coressoft.breader.lib.preference.CheckBoxPreference
+            android:key="@string/right_hand_mode_key"
+            android:title="@string/right_hand_mode"
+            android:summary="@string/right_hand_mode_summary"/>
+        <com.coressoft.breader.lib.preference.CheckBoxPreference
+            android:key="@string/card_note_item_layout_key"
+            android:title="@string/card_note_item_layout"/>
+        <com.coressoft.breader.lib.preference.Preference
+            android:key="@string/ever_note_account_key"
+            android:title="@string/bind_ever_note"/>
+        <com.coressoft.breader.lib.preference.Preference
+            android:key="@string/backup_local_key"
+            android:title="@string/backup_local"
+            android:summary="@string/backup_local_summary"/>
+        <com.coressoft.breader.lib.preference.Preference
+            android:key="@string/change_theme_key"
+            android:title="@string/change_theme"/>
+    </com.coressoft.breader.lib.preference.PreferenceCategory>
+
+    <com.coressoft.breader.lib.preference.PreferenceCategory android:title="@string/other">
+        <com.coressoft.breader.lib.preference.Preference
+            android:key="@string/advice_feedback_key"
+            android:title="@string/advice_feedback"/>
+        <com.coressoft.breader.lib.preference.Preference
+            android:key="@string/give_favor_key"
+            android:title="@string/give_favor"/>
+        <com.coressoft.breader.lib.preference.Preference
+            android:key="@string/pay_for_me_key"
+            android:title="@string/pay_for_me_title"/>
+    </com.coressoft.breader.lib.preference.PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion setup.compileSdk
+    buildToolsVersion setup.buildTools
+
+    defaultConfig {
+        minSdkVersion setup.minSdk
+        targetSdkVersion setup.targetSdk
+        versionCode release.versionCode
+        versionName release.versionName
+
+        resValue "string", "materialdrawer_lib_version", "${versionName}"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation "com.android.support:appcompat-v7:27.1.1"
+    implementation "com.android.support:recyclerview-v7:27.1.1"
+    implementation "com.android.support:support-annotations:27.1.1"
+    implementation "com.android.support:design:27.1.1"
+
+    // 用于基于一些向后兼容的主题，包含支持各种android版本的util类，并清理代码，带有令人敬畏的“Holder”图案
+    // URL：https://github.com/mikepenz/Materialize
+    api 'com.mikepenz:materialize:1.1.2'
+
+    // 用于提供开箱即用图标字体支持。简化开发,并提供可缩放的图标。核心非常轻
+    // URL：https://github.com/mikepenz/Android-Iconics
+    api 'com.mikepenz:iconics-core:3.0.4'
+
+    // 用于在RecyclerView中填充抽屉，并提供单选和多选、可扩展的项目
+    // URL:https://github.com/mikepenz/FastAdapter
+    api 'com.mikepenz:fastadapter:3.2.8'
+    api 'com.mikepenz:fastadapter-extensions-expandable:3.2.8'
+}
+

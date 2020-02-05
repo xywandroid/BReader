@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">PalmBible</string>
+
+    <string name="skip_button">Skip</string>
+    <string name="done_button">Done</string>
+
+    <string name="menu_search">搜索</string>
+    <string name="menu_manager">管理</string>
+
+    <string name="bible">圣经阅读</string>
+    <string name="hear">收听圣经</string>
+    <string name="map">教堂地点</string>
+    <string name="im">姊妹交流</string>
+    <string name="setting">系统设置</string>
+    <string name="about">关于我们</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_select_file">导入书本</string>
+    <string name="action_search_file">搜索文件</string>
+    <string name="action_add_bookmark">添加书签</string>
+    <string name="action_read_book">读书</string>
+
+    <string name="press_twice_to_exit">连续点击才能退出</string>
+    <string name="root">根目录</string>
+    <string name="add_files">加入书架</string>
+    <string name="choose_all">全选</string>
+    <string name="delete">取消</string>
+    <string name="bookpop_size">字体</string>
+    <string name="bookpop_light">亮度</string>
+    <string name="bookpop_card">书签</string>
+    <string name="bookpop_send">跳转</string>
+
+    <string name="read_setting_directory">目录</string>
+    <string name="read_setting_night">夜间</string>
+    <string name="read_setting_day">日间</string>
+    <string name="read_setting_pagemode">翻页</string>
+    <string name="read_setting_set">设置</string>
+    <string name="read_setting_pre">上一章</string>
+    <string name="read_setting_next">下一章</string>
+
+    <string name="setting_system">系统</string>
+    <string name="setting_dark">暗</string>
+    <string name="setting_bright">亮</string>
+    <string name="setting_add">A+</string>
+    <string name="setting_subtract">A-</string>
+    <string name="setting_default">默认</string>
+
+    <string name="font_default">系统默认</string>
+    <string name="font_qihei">羿创旗黑</string>
+    <string name="font_xinshou">新宋体</string>
+    <string name="font_wawa">娃娃体</string>
+    <string name="font_fzxinghei">行黑</string>
+    <string name="font_fzkatong">卡通</string>
+    <string name="font_bysong">繁宋体</string>
+
+    <string name="page_mode_simulation">仿真</string>
+    <string name="page_mode_cover">覆盖</string>
+    <string name="page_mode_slide">滑动</string>
+    <string name="page_mode_none">无</string>
+
+    <string name="readseting">设置</string>
+
+    <string name="settings_system">系统设置</string>
+    <string name="settings_user">用户设置</string>
+    <string name="settings_display">显示设置</string>
+    <string name="settings_net">网络设置</string>
+    <string name="settings_read">阅读设置</string>
+    <string name="settings_listen">收听设置</string>
+    <string name="settings_im">聊天设置</string>
+    <string name="settings_update">系统更新</string>
+    <string name="settings_language">多语言设置</string>
+    <string name="settings_download">下载设置</string>
+
+
+    <string name="action_skip">Skip</string>
+    <string name="btn_start">Start</string>
+    <string name="write_label">Put words to your pictures and leave memories in your blog.</string>
+    <string name="share_label">Share your important moments with friends and family.</string>
+    <string name="follow_label">Follow interesting genres and creators from around the world. </string>
+    <string name="device_text">Today I went to the newly opened Uehara Cafe in Yoyogi Uehara. Because today was the grand opening, there was a good sized crowd there. Recently lots of famous shops from Hawaii one after another are coming to Japan. I personally think these pancakes are so hot right now.</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+    <array name="menuOptions">
+        <item>圣经阅读</item>
+        <item>收听圣经</item>
+        <item>教堂地点</item>
+        <item>姊妹交流</item>
+        <item>系统设置</item>
+        <item>关于我们</item>
+    </array>
+
+    <string name="text_unknown">未知</string>
+    <string name="text_setting">设置</string>
+
+    <string name="text_login">登录</string>
+    <string name="text_registered">新用户注册</string>
+    <string name="text_find_password">忘记密码?</string>
+    <string name="text_change_password">修改密码</string>
+
+    <string name="text_ok">确定</string>
+    <string name="text_phone">注册时的手机号码</string>
+    <string name="text_password_again">再次输入密码</string>
+    <string name="text_keep_password">记住密码</string>
+    <string name="text_input_phone">请输入号码</string>
+    <string name="text_query">查询</string>
+    <string name="et_phone_num">手机号</string>
+    <string name="text_name">姓名</string>
+    <string name="text_age">年龄</string>
+    <string name="text_desc">个人简介</string>
+    <string name="text_boy">boy</string>
+    <string name="text_girl">girl</string>
+    <string name="text_password">密码</string>
+    <string name="text_share">分享新鲜事</string>
+
+    <string name="text_more_length">输入长度超出限制</string>
+    <string name="text_tost_empty">输入框不能为空</string>
+    <string name="text_nothing">这个人很懒，什么都没有留下！</string>
+    <string name="text_login_success">登录成功</string>
+    <string name="text_login_failure">登录失败</string>
+    <string name="text_editor_success">修改成功</string>
+    <string name="text_editor_failure">修改失败</string>
+    <string name="avatar_editor_success">头像更新成功</string>
+    <string name="avatar_editor_failure">头像更新失败</string>
+    <string name="text_registered_successful">注册成功</string>
+    <string name="text_registered_failure">注册失败：</string>
+    <string name="text_two_input_not_consistent">两次输入的密码不一致</string>
+    <string name="text_app_name">应用名:</string>
+    <string name="text_version">版本号:</string>
+    <string name="text_now_login">正在登陆...</string>
+
+    <string name="text_phone_find">找回密码</string>
+    <string name="text_setting_password">重置密码</string>
+    <string name="text_reset_sms_code">重新发送验证码</string>
+    <string name="text_sms_code_reset_successfully">验证码发送成功</string>
+    <string name="text_editor_password">修改密码</string>
+    <string name="text_now_password">旧密码</string>
+    <string name="text_new_password">新密码</string>
+    <string name="reset_successfully">重置密码成功</string>
+    <string name="reset_failed">重置密码失败</string>
+
+    <string name="text_default_no_login">您还没有登录</string>
+    <string name="text_publish">发布中..</string>
+    <string name="text_publish_successfully">发布成功</string>
+
+
+    <string name="main_tab_recent">会话</string>
+    <string name="main_tab_contact">联系人</string>
+    <string name="mian_tab_set">设置</string>
+
+    <string name="add_avator">头像</string>
+    <string name="add_nick">昵称</string>
+    <string name="add_name">账号</string>
+    <string name="agree">接受</string>
+    <string name="new_friend">新朋友</string>
+
+    <string name="chat">陌生人聊天</string>
+    <string name="add_friend">添加好友</string>
+
+    <string name="set_notify">接收新消息通知</string>
+    <string name="set_myinfo">个人资料</string>
+    <string name="set_blacklist">黑名单</string>
+    <string name="set_voice">声音</string>
+    <string name="set_vibrate">震动</string>
+    <string name="logout">退出登陆</string>
+
+    <string name="longclick_speak">长按说话</string>
+    <string name="picture">照片</string>
+    <string name="camera">拍摄</string>
+    <string name="location">位置</string>
+    <string name="voice_up_tips">手指上滑,取消发送</string>
+    <string name="voice_cancel_tips">松开手指，取消发送</string>
+    <string name="voice_seconds_tips">还可以说%1$s秒</string>
+    <string name="voice_short_tips">录音时间太短</string>
+    <string name="todo">TODO</string>
+
+
+
+
+
+    <!--需要删除保留部分-->
+
+
+    <string name="app_desc">极简笔记，简洁的记事应用</string>
+    <string name="bind_ever_note">绑定印象笔记</string>
+    <string name="unbind_ever_note">解除印象笔记绑定</string>
+    <string name="exit">退出</string>
+    <string name="search">搜索</string>
+    <string name="more">更多</string>
+    <string name="general_settings">常规</string>
+    <string name="other">其他</string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="give_favor">给应用点赞</string>
+    <string name="sync">同步</string>
+    <array name="drawer_content">
+        <item>SNotes</item>
+        <item>回收站</item>
+    </array>
+    <string name="note_log_text" formatted="false">%s\u0020:\u0020%s</string>
+    <string name="edit">编辑</string>
+    <string name="trash">回收站</string>
+    <string name="right_hand_mode">右手操作模式</string>
+    <string name="right_hand_mode_summary">开启右手操作模式，侧边栏将从右边划开，默认从左边划开</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete_tip">是否要从本地删除了该条笔记</string>
+    <string name="done">完成</string>
+    <string name="label">标签</string>
+    <string name="note_content">笔记内容</string>
+    <string name="new_note">新的笔记</string>
+
+    <string name="search_note">搜索笔记</string>
+    <string name="edit_note">编辑笔记</string>
+    <string name="view_note">查看笔记</string>
+    <string name="show_note_history_log_key">show_note_history_log_key</string>
+    <string name="right_hand_mode_key">right_hand_mode_key</string>
+    <string name="move_success">成功移除</string>
+    <string name="recover">恢复</string>
+    <string name="create">创建</string>
+    <string name="advice_feedback_key">advice_feedback_key</string>
+    <string name="no_email_app_tip">请先安装邮件应用并设置账户,或直接发送邮件至 lgpszu@163.com</string>
+    <string name="sync_account_key">sync_account_key</string>
+    <string name="sync_success">同步成功</string>
+    <string name="sync_fail">同步失败，建议在网络好的时候进行同步</string>
+    <string name="pay_for_me_title">觉得不错，随意打赏</string>
+    <string name="jianshu_blog">简书博客</string>
+    <string name="project_home">项目主页</string>
+    <string name="pay_for_me_tip">如果觉得极简笔记对您有用，请随意打赏。</string>
+    <string name="pay_for_me">随意打赏</string>
+    <string name="pay_for_me_key">pay_for_me_key</string>
+    <string name="recycle_bin">回收站</string>
+    <string name="give_favor_key">give_favor_key</string>
+    <string name="card_note_item_layout">卡片式笔记</string>
+    <string name="card_note_item_layout_key">card_note_item_layout_key</string>
+    <string name="not_save_note_leave_tip">笔记已经发生变化，是否保存后再离开</string>
+    <string name="change_theme">更换主题</string>
+    <string name="change_theme_key">change_theme_key</string>
+    <string name="before_hour" formatted="false">%d\u0020小时之前</string>
+    <string name="before_day" formatted="false">%d\u0020天之前</string>
+    <string name="before_month" formatted="false">%d\u0020个月之前</string>
+    <string name="before_year" formatted="false">%d\u0020年之前</string>
+    <string name="share_text" formatted="false">极简笔记简洁好用，推荐你也来用用 %s\u0020%s</string>
+    <string name="download_url" >下载地址</string>
+    <string name="share">分享到</string>
+    <string name="not_install_app">请先安装相应客户端</string>
+    <array name="share_dialog_text">
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>微信收藏</item>
+        <item>新浪微博</item>
+        <item>更多</item>
+    </array>
+    <string name="about_bottom_text">Copyright © 2015 Liaoguipeng.\nAll Rights Reserved.</string>
+    <string name="bind_ever_note_fail">绑定印象笔记失败</string>
+    <string name="bind_ever_note_success">绑定印象笔记成功</string>
+    <string name="ever_note_account">印象笔记账号</string>
+    <string name="ever_note_account_key">ever_note_accout_key</string>
+    <string name="has_unbind_ever_note_tip">是否要解除印象笔记的绑定？</string>
+    <string name="expunge_error">云端彻底删除失败，请到PC端操作！</string>
+    <string name="unbind_ever_note_tip">未绑定印象笔记，请到设置中绑定</string>
+    <string name="go_bind">去绑定</string>
+    <string name="delete_error">云端删除失败，请到PC端操作！</string>
+    <string name="recovering">恢复中，请耐心等待</string>
+    <string name="frequent_api_tip">接口调频繁，请稍后再重试</string>
+    <string name="view">查看</string>
+    <string name="last_update">最后更新</string>
+    <string name="error_auth_expired_tip">授权期限过期，请重新授权</string>
+    <string name="error_permission_deny">操作权限不够</string>
+    <string name="error_quota_reached">本月流量超出限制，同步失败</string>
+    <string name="title">标题</string>
+    <string name="backup_local_key">backup_local_key</string>
+    <string name="backup_local_summary">备份笔记到存储卡/SNote/notes.txt</string>
+    <string name="backup_local">备份到本地</string>
+    <string name="backup_local_done">备份完成</string>
+    <string name="backup_local_fail">备份失败</string>
+    <string name="just_now">刚刚</string>
+    <string name="before_half_hour">半个小时之前</string>
+    <string name="default_label">无标题</string>
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+
+    <string name="note">笔记</string>
+    <string name="book_make">书签</string>
+    <string name="read">阅读</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="user_name">主的小羊羔</string>
+
+
+
+
+
+    <!-- Drawer Items -->
+    <string name="drawer_item_persistent_compact_header">PersistentHeader Drawer</string>
+    <string name="drawer_item_persistent_compact_header_desc">Smaller persistent account header</string>
+    <string name="drawer_item_compact_header">CompactHeader Drawer</string>
+    <string name="drawer_item_compact_header_desc">Smaller account header</string>
+    <string name="drawer_item_action_bar_drawer">ActionBar Drawer</string>
+    <string name="drawer_item_action_bar_drawer_desc">Shows how to use with an actionbar</string>
+    <string name="drawer_item_multi_drawer">Multi Drawer</string>
+    <string name="drawer_item_multi_drawer_desc">Left and Right side drawer</string>
+    <string name="drawer_item_non_translucent_status_drawer">NonTranslucentStatus Drawer</string>
+    <string name="drawer_item_non_translucent_status_drawer_desc">Drawer below statusBar</string>
+    <string name="drawer_item_advanced_drawer">Advanced Drawer</string>
+    <string name="drawer_item_advanced_drawer_desc">More advanced drawer features</string>
+    <string name="drawer_item_embedded_drawer">Embedded Drawer</string>
+    <string name="drawer_item_embedded_drawer_desc">Embed the drawer anywhere</string>
+    <string name="drawer_item_mini_drawer">MiniDrawer</string>
+    <string name="drawer_item_mini_drawer_desc">Always visible MiniDrawer</string>
+    <string name="drawer_item_fullscreen_drawer">FullScreen Drawer</string>
+    <string name="drawer_item_fullscreen_drawer_desc">Drawer in FullScreen activity</string>
+    <string name="drawer_item_custom_container_drawer">CustomContainer Drawer</string>
+    <string name="drawer_item_custom_container_drawer_desc">Drawer in different view hirachy</string>
+    <string name="drawer_item_menu_drawer">Menu Drawer</string>
+    <string name="drawer_item_menu_drawer_desc">Drawer from menu.xml</string>
+    <string name="drawer_item_fragment_drawer">Fragment Drawer</string>
+    <string name="drawer_item_fragment_drawer_desc">Use drawer within fragments</string>
+    <string name="drawer_item_collapsing_toolbar_drawer">CollapsingToolbar Drawer</string>
+    <string name="drawer_item_collapsing_toolbar_drawer_desc">Uses a CollapsingToolbarLayout</string>
+    <string name="drawer_item_crossfade_drawer_layout_drawer">CrossfadeDrawerLayout</string>
+    <string name="drawer_item_crossfade_drawer_layout_drawer_desc">2-Step Drawer behavior</string>
+
+    <string name="drawer_item_menu_drawer_item">Menu Drawer Item</string>
+    <string name="drawer_item_menu_drawer_item_desc">Sample menu item with overflow button</string>
+
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_free_play">Free Play</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_section_header">Section Header</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+
+
+</resources>
