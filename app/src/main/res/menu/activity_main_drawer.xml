@@ -17,22 +17,27 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/note" />
         <item
-            android:id="@+id/nav_setting"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/setting" />
+            android:id="@+id/nav_im"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="姊妹交流" />
+
     </group>
 
-    <item android:title="Communicate">
-        <menu>
+    <item android:title="其他">
+    <group android:checkableBehavior="single">
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="分享" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_menu_share"
+                android:title="捐赠" />
+            <item
+                android:id="@+id/nav_about"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
+                android:title="关于我们" />
+    </group>
     </item>
 
 </menu>
