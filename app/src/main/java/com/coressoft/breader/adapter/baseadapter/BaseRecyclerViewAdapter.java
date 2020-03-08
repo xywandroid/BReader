@@ -25,7 +25,6 @@ public abstract class BaseRecyclerViewAdapter<E> extends RecyclerView.Adapter<Re
 
     private int mLastPosition = -1;
 
-
     private int ATE = 1;
 
     private boolean isFirstOnly = true;

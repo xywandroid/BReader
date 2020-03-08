@@ -121,7 +121,7 @@ public class SplashActivity extends PermissionActivity
     }
 
     private void loadMainActivity() {
-        Intent intent = new Intent(this, MainTestActicity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
@@ -200,9 +200,9 @@ public class SplashActivity extends PermissionActivity
     public void onClick(View v) {
         switch (v.getId()) {
         case R.id.start:
-            // 点击Start 按钮，进入主界面
             loadMainActivity();
-            Toast.makeText(getApplicationContext(), "Start clicked", Toast.LENGTH_SHORT).show();
+            XLog.i("进入主界面中...");
+            finish();
             break;
             default:
         }

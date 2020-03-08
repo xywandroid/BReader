@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -15,10 +16,13 @@ import android.widget.TextView;
 import com.coressoft.breader.R;
 import com.coressoft.breader.base.BaseActivity;
 import com.coressoft.breader.lib.DrawerLayout;
+import com.coressoft.breader.ui.fragment.FragmentAbout;
+import com.coressoft.breader.ui.fragment.FragmentDonate;
 import com.coressoft.breader.ui.fragment.FragmentMark;
 import com.coressoft.breader.ui.fragment.FragmentNote;
 import com.coressoft.breader.ui.fragment.FragmentRead;
 import com.coressoft.breader.ui.fragment.FragmentSettings;
+import com.coressoft.breader.ui.fragment.FragmentShare;
 import com.coressoft.breader.utils.XLog;
 
 import java.util.ArrayList;
@@ -30,7 +34,6 @@ import butterknife.BindView;
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
     @BindView(R.id.drawer_layout)
     DrawerLayout drawer_layout;
-
     @BindView(R.id.navigation_view)
     NavigationView navigation_view;
     @BindView(R.id.tool_bar)
@@ -105,7 +108,9 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
             fragments.add(fragmentManager.findFragmentByTag(1 + ""));
             fragments.add(fragmentManager.findFragmentByTag(2 + ""));
             fragments.add(fragmentManager.findFragmentByTag(3 + ""));
-
+            fragments.add(fragmentManager.findFragmentByTag(4 + ""));
+            fragments.add(fragmentManager.findFragmentByTag(5 + ""));
+            fragments.add(fragmentManager.findFragmentByTag(6 + ""));
             //恢复fragment页面
             restoreFragment();
         } else {      //正常启动时调用
@@ -114,6 +119,10 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
             fragments.add(new FragmentMark());
             fragments.add(new FragmentNote());
             fragments.add(new FragmentSettings());
+
+            fragments.add(new FragmentShare());
+            fragments.add(new FragmentDonate());
+            fragments.add(new FragmentAbout());
 
             showFragment();
         }
@@ -171,6 +180,34 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         View headerView = getLayoutInflater().inflate(R.layout.nav_header_main, null, false);
         navigationView.addHeaderView(headerView);
         navigationView.setNavigationItemSelectedListener(this);
+
+        View footView = getLayoutInflater().inflate(R.layout.left_view_bottom_layout, null, false);
+        navigationView.addView(footView);
+        LinearLayout settingBtn = footView.findViewById(R.id.settings_btn_left);
+        LinearLayout dayNigthBtn = footView.findViewById(R.id.day_night_btn_left);
+        LinearLayout weatherBtn = footView.findViewById(R.id.weather_btn_left);
+
+        settingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                XLog.i("点击了setting 按钮");
+            }
+        });
+
+        dayNigthBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                XLog.i("切换白天黑夜");
+            }
+        });
+
+        weatherBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                XLog.i("查看天气");
+            }
+        });
+        navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
@@ -201,9 +238,27 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                 currentIndex = 2;
                 initBarString(currentIndex);
                 break;
-            case R.id.nav_setting:
+            case R.id.nav_im:
                 XLog.i("nav_setting is Selected");
                 currentIndex = 3;
+//                initBarString(currentIndex);
+                break;
+
+            case R.id.nav_share:
+                XLog.i("nav_setting is Selected");
+                currentIndex = 4;
+                initBarString(currentIndex);
+                break;
+
+            case R.id.nav_donate:
+                XLog.i("nav_setting is Selected");
+                currentIndex = 5;
+                initBarString(currentIndex);
+                break;
+
+            case R.id.nav_about:
+                XLog.i("nav_setting is Selected");
+                currentIndex = 6;
                 initBarString(currentIndex);
                 break;
         }
@@ -233,8 +288,24 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
             case 3:
                 double_title.setVisibility(View.GONE);
                 one_title.setVisibility(View.VISIBLE);
-                one_title.setText("系统设置");
+                one_title.setText("姊妹交流");
+                break;
+            case 4:
+                double_title.setVisibility(View.GONE);
+                one_title.setVisibility(View.VISIBLE);
+                one_title.setText("好友分享");
+                break;
+            case 5:
+                double_title.setVisibility(View.GONE);
+                one_title.setVisibility(View.VISIBLE);
+                one_title.setText("捐赠");
+                break;
+            case 6:
+                double_title.setVisibility(View.GONE);
+                one_title.setVisibility(View.VISIBLE);
+                one_title.setText("关于我们");
                 break;
         }
     }
 }
+//TODO Setting 的按钮没有进行设置正确，需要进行修改，重新建立IM 交流页面，并且图标需要进行更换。
